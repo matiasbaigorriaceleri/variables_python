@@ -12,14 +12,16 @@
 # Ingrese tres palabras y arme un acrónimo con ellas
 # Si desea puede modificar el código para ingresar más palabras
 print('Ingrese palabra 1:')
-palabra_1 = str(input())
+palabra_1 = str(input())    # Patria
 
 print('Ingrese palabra 2:')
-palabra_2 = str(input())
+palabra_2 = str(input())    # Andar
 
 print('Ingrese palabra 3:')
-palabra_3 = str(input())
+palabra_3 = str(input())    # Zapato
 
 # De cada palabra debe tomar la primera letra y armar el acrónimo
+acronimo = palabra_1[0] + palabra_2[0] + palabra_3[0]
 # Ejemplo: Alumbrado, barrido y limpieza --> ABL
 # Imprimir el resultado en pantalla
+print ("El acronimo es:", acronimo)
